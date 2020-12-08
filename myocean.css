@@ -1,0 +1,987 @@
+        header {
+            background: ;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #ECF75F;
+            height: 100px;
+            text-align: center;
+            font-size: 2em;
+            background-image: url(island.png);
+            background-position: left;
+            background-size: 10%;
+            background-repeat: no-repeat;
+        }
+
+        body {
+            background-image: url('depths 4.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Quicksand', sans-serif;
+        }
+
+        main {
+            line-height: 2;
+        }
+
+        #center {
+            text-align: center;
+            width: 40%;
+            margin: auto
+        }
+
+        #shark {
+            width: 25%;
+            float: left;
+            padding-left: 2px;
+            padding-right: 5px
+        }
+
+        #shark:hover {
+            width: 70%;
+        }
+
+        #pshark {
+            text-align: left;
+            padding: 10px;
+            font-size: 0.9em;
+        }
+
+        #pshark:hover {
+            font-size: 1em
+        }
+
+        #orca {
+            width: 25%;
+            padding-right: 3px;
+            float: right;
+        }
+
+        #orca:hover {
+            width: 70%;
+        }
+
+        #porca {
+            width: 80%;
+            padding: 10px;
+            font-size: 0.9em
+        }
+
+        #porca:hover {
+            font-size: 1em
+        }
+
+        #star {
+            width: 25%;
+            float: left;
+            padding-left: 2px
+        }
+
+        #star:hover {
+            width: 70%;
+        }
+
+        #pstars {
+            width: 100%;
+            text-align: right;
+            padding-left: 100px;
+            font-size: 0.9em
+        }
+
+        #pstars:hover {
+            font-size: 1em
+        }
+
+        #nautilus {
+            width: 25%;
+            float: right;
+            padding-right: 2px
+        }
+
+        #nautilus:hover {
+            width: 70%
+        }
+
+        #pnaut {
+            width: 70%;
+            font-size: 0.9em
+        }
+
+        #pnaut:hover {
+            font-size: 1em
+        }
+
+        #shoe {
+            width: 25%;
+            float: left;
+            padding-left: 2px;
+        }
+
+        #shoe:hover {
+            width: 70%
+        }
+
+        #pshoe {
+            padding: 10px;
+            text-align: right;
+            font-size: 0.9em
+        }
+
+        #pshoe:hover {
+            font-size: 1em
+        }
+
+        #lamp {
+            width: 25%;
+            float: right;
+            padding-right: 2px
+        }
+
+        #lamp:hover {
+            width: 37%
+        }
+
+        #plamp {
+            padding: 10px;
+            font-size: 0.9em
+        }
+
+        #plamp:hover {
+            font-size: 1em
+        }
+
+        #moray {
+            width: 25%;
+            float: left;
+            padding-left: 2px;
+            padding-right: 5px
+        }
+
+        #moray:hover {
+            width: 70%
+        }
+
+        #pmoray {
+            text-align: left;
+            font-size: 0.9em
+        }
+
+        #pmoray:hover {
+            font-size: 1em
+        }
+
+        #bat {
+            width: 25%;
+            float: right;
+            padding-right: 2px
+        }
+
+        #bat:hover {
+            width: 70%
+        }
+
+        #pbat {
+            padding: 10px;
+            text-align: left;
+            width: 100%;
+            font-size: 0.9em
+        }
+
+        #pbat:hover {
+            font-size: 1em
+        }
+
+        #gazer {
+            width: 25%;
+            float: left;
+            padding-right: 10px;
+            padding-left: 2px
+        }
+
+        #gazer:hover {
+            width: 70%
+        }
+
+        #pgazer {
+            font-size: 0.9em
+        }
+
+        #pgazer:hover {
+            font-size: 1em
+        }
+
+        #man {
+            width: 25%;
+            float: right;
+            padding-right: 2px
+        }
+
+        #man:hover {
+            width: 70%
+        }
+
+        #pman {
+            font-size: 0.9em
+        }
+
+        #pman:hover {
+            font-size: 1em
+        }
+
+        #sun {
+            width: 25%;
+            float: left;
+            padding-right: 5px;
+            padding-left: 2px
+        }
+
+        #sun:hover {
+            width: 70%
+        }
+
+        #psun {
+            font-size: 0.9em;
+            padding-left: 5px
+        }
+
+        #psun:hover {
+            font-size: 1em
+        }
+
+        #wolf {
+            width: 25%;
+            float: right
+        }
+
+        #wolf:hover {
+            width: 70%
+        }
+
+        #pwolf {
+            font-size: 0.9em
+        }
+
+        #pwolf:hover {
+            font-size: 1em
+        }
+
+        #angel {
+            width: 25%;
+            float: left;
+            padding-right: 5px;
+            padding-left: 2px
+        }
+
+        #angel:hover {
+            width: 70%
+        }
+
+        #pangel {
+            font-size: 0.9em;
+            padding-left: 5px;
+            color: lightskyblue
+        }
+
+        #pangel:hover {
+            font-size: 1em
+        }
+
+        #coel {
+            width: 25%;
+            float: right;
+            padding-right: 2px;
+            padding-left: 5px
+        }
+
+        #coel:hover {
+            width: 70%
+        }
+
+        #pcoel {
+            font-size: 0.9em;
+            color: lightskyblue
+        }
+
+        #pcoel:hover {
+            font-size: 1em
+        }
+
+        #lancet {
+            width: 25%;
+            padding-left: 2px;
+            padding-right: 5px;
+        }
+
+        #lancet:hover {
+            width: 70%
+        }
+
+        #plancet {
+            font-size: 0.9em;
+            color: lightskyblue;
+            padding-left: 9px
+        }
+
+        #plancet:hover {
+            font-size: 1em
+        }
+
+        #squid {
+            width: 25%;
+            float: right
+        }
+
+        #squid:hover {
+            width: 70%
+        }
+
+        #psquid {
+            font-size: 0.9em;
+            color: lightskyblue
+        }
+
+        #psquid:hover {
+            font-size: 1em
+        }
+
+        #isopod {
+            width: 25%;
+            float: left;
+            padding-left: 2px;
+            padding-right: 5px
+        }
+
+        #isopod:hover {
+            width: 70%
+        }
+
+        #pisopod {
+            font-size: 0.9em;
+            color: lightskyblue;
+        }
+
+        #pisopod:hover {
+            font-size: 1em;
+        }
+
+        #spider {
+            width: 25%;
+            float: right;
+            padding-right: 2px;
+            padding-left: 5px
+        }
+
+        #spider:hover {
+            width: 70%
+        }
+
+        #pspider {
+            font-size: 0.9em;
+            color: lightskyblue
+        }
+
+        #pspider:hover {
+            font-size: 1em
+        }
+
+        #blob {
+            width: 25%;
+            float: left;
+            padding-left: 2px;
+            padding-right: 5px
+        }
+
+        #blob:hover {
+            width: 70%
+        }
+
+        #pblob {
+            font-size: 0.9em;
+            color: lightskyblue
+        }
+
+        #pblob:hover {
+            font-size: 1em
+        }
+
+        #stubby {
+            width: 25%;
+            float: right
+        }
+
+        #stubby:hover {
+            width: 70%
+        }
+
+        #pstubby {
+            font-size: 0.9em;
+            color: lightskyblue
+        }
+
+        #pstubby:hover {
+            font-size: 1em
+        }
+
+        #barrel {
+            width: 25%;
+            float: left;
+            padding-left: 2px;
+            padding-right: 5px
+        }
+
+        #barrel:hover {
+            width: 70%
+        }
+
+        #pbarrel {
+            font-size: 0.9em;
+            color: lightskyblue
+        }
+
+        #pbarrel:hover {
+            font-size: 1em
+        }
+
+        #frilled {
+            width: 25%;
+            float: right
+        }
+
+        #frilled:hover {
+            width: 70%
+        }
+
+        #pfrilled {
+            font-size: 0.9em;
+            color: lightskyblue
+        }
+
+        #pfrilled:hover {
+            font-size: 1em
+        }
+
+        #oar {
+            width: 25%;
+            float: left;
+            padding-left: 2px;
+            padding-right: 5px
+        }
+
+        #oar:hover {
+            width: 70%
+        }
+
+        #poar {
+            font-size: 0.9em;
+            color: lightskyblue;
+            padding-left: 5px
+        }
+
+        #poar:hover {
+            font-size: 1em
+        }
+
+        #lantern {
+            width: 25%;
+            float: right;
+            padding-left: 5px;
+            padding-right: 2px
+        }
+
+        #lantern:hover {
+            width: 70%
+        }
+
+        #plantern {
+            font-size: 0.9em;
+            color: lightskyblue
+        }
+
+        #plantern:hover {
+            font-size: 1em
+        }
+
+        #ghost {
+            width: 25%;
+            float: left;
+            padding-left: 2px;
+            padding-right: 5px
+        }
+
+        #ghost:hover {
+            width: 70%
+        }
+
+        #pghost {
+            font-size: 0.9em;
+            color: paleturquoise;
+            padding-left: 5px
+        }
+
+        #pghost:hover {
+            font-size: 1em
+        }
+
+        #goblin {
+            width: 25%;
+            float: right
+        }
+
+        #goblin:hover {
+            width: 70%
+        }
+
+        #pgoblin {
+            font-size: 0.9em;
+            color: paleturquoise
+        }
+
+        #pgoblin:hover {
+            font-size: 1em
+        }
+
+        #hali {
+            width: 25%;
+            float: left;
+            padding-left: 2px;
+            padding-right: 5px
+        }
+
+        #hali:hover {
+            width: 70%
+        }
+
+        #phali {
+            font-size: 0.9em;
+            color: paleturquoise;
+            padding-left: 5px
+        }
+
+        #phali:hover {
+            font-size: 1em
+        }
+
+        #sixgill {
+            width: 25%;
+            float: right
+        }
+
+        #sixgill:hover {
+            width: 70%
+        }
+
+        #psixgill {
+            font-size: 0.9em;
+            color: paleturquoise
+        }
+
+        #psixgill:hover {
+            font-size: 1em
+        }
+
+        #angler {
+            width: 25%;
+            float: left;
+            padding-left: 2px;
+            padding-right: 5px
+        }
+
+        #angler:hover {
+            width: 70%
+        }
+
+        #pangler {
+            font-size: 0.9em;
+            color: paleturquoise;
+            padding-left: 5px
+        }
+
+        #pangler:hover {
+            font-size: 1em
+        }
+
+        #dragon {
+            width: 25%;
+            float: right
+        }
+
+        #dragon:hover {
+            width: 70%
+        }
+
+        #pdragon {
+            font-size: 0.9em;
+            color: paleturquoise
+        }
+
+        #pdragon:hover {
+            font-size: 1em
+        }
+
+        #vampire {
+            width: 25%;
+            float: left;
+            padding-left: 2px;
+            padding-right: 5px
+        }
+
+        #vampire:hover {
+            width: 70%
+        }
+
+        #pvampire {
+            font-size: 0.9em;
+            color: paleturquoise;
+            padding-left: 5px
+        }
+
+        #pvampire:hover {
+            font-size: 1em
+        }
+
+        #axeli {
+            width: 25%;
+            float: right
+        }
+
+        #axeli:hover {
+            width: 70%
+        }
+
+        #paxeli {
+            font-size: 0.9em;
+            color: paleturquoise
+        }
+
+        #paxeli:hover {
+            font-size: 1em
+        }
+
+        #cookie {
+            width: 25%;
+            float: left;
+            padding-left: 2px;
+            padding-right: 5px
+        }
+
+        #cookie:hover {
+            width: 70%
+        }
+
+        #pcookie {
+            font-size: 0.9em;
+            color: paleturquoise;
+            padding-left: 5px
+        }
+
+        #pcookie:hover {
+            font-size: 1em
+        }
+
+        #dumbo {
+            width: 25%;
+            float: right
+        }
+
+        #dumbo:hover {
+            width: 70%
+        }
+
+        #pdumbo {
+            font-size: 0.9em;
+            color: palegoldenrod
+        }
+
+        #pdumbo:hover {
+            font-size: 1em
+        }
+
+        #gulper {
+            width: 25%;
+            float: right
+        }
+
+        #gulper:hover {
+            width: 70%
+        }
+
+        #pgulper {
+            font-size: 0.9em;
+            color: paleturquoise
+        }
+
+        #pgulper:hover {
+            font-size: 1em
+        }
+
+        #bigfin {
+            width: 25%;
+            float: left;
+            padding-left: 2px;
+            padding-right: 5px
+        }
+
+        #bigfin:hover {
+            width: 70%
+        }
+
+        #pbigfin {
+            font-size: 0.9em;
+            color: palegoldenrod;
+            padding-left:5px
+        }
+
+        #pbigfin:hover {
+            font-size: 1em
+        }
+
+        #tripod {
+            width: 25%;
+            float: right
+        }
+
+        #tripod:hover {
+            width: 70%
+        }
+
+        #ptripod {
+            font-size: 0.9em;
+            color: palegoldenrod
+        }
+
+        #ptripod:hover {
+            font-size: 1em
+        }
+
+        #cusk {
+            width: 25%;
+            float: right;
+            padding-left: 2px;
+            padding-right: 5px
+        }
+
+        #cusk:hover {
+            width: 70%
+        }
+
+        #pcusk {
+            font-size: 0.9em;
+            color: palegreen
+        }
+
+        #pcusk:hover {
+            font-size: 1em
+        }
+
+        #yaqui {
+            width: 25%;
+            float: left;
+            padding-left: 2px;
+            padding-right: 5px
+        }
+
+        #yaqui:hover {
+            width: 70%
+        }
+
+        #pyaqui {
+            font-size: 0.9em;
+            color: palegreen;
+            padding-left:5px
+        }
+
+        #pyaqui:hover {
+            font-size: 1em
+        }
+
+        .column {
+            width: 33.33%;
+            float: left
+        }
+
+        .row:after {
+            content: "";
+            display: flex;
+            flex-direction: column;
+            clear: both;
+            justify-content: space-between;
+        }
+
+        #ocean {
+            font-size: 2em
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        div a {
+            display: inline-block
+        }
+
+        #epi {
+            transform-style: preserve-3d;
+        }
+
+        #epi:after {
+            top: -100%;
+            left: 0px;
+            width: 100%;
+            position: absolute;
+            background: darkorchid;
+            border-radius: 5px;
+            content: 'Epipelagic';
+            transform-origin: left bottom;
+            transform: rotateX(90deg);
+        }
+
+        #epi:hover {
+            transform-origin: center bottom;
+            transform: rotateX(-90deg) translateY(100%);
+        }
+
+        #epi {
+            color: yellow;
+            font-size: 2em;
+            background: rgb(65, 105, 225, 0.6)
+        }
+
+        #meso {
+            color: royalblue;
+            background: #4F2AB2;
+            font-size: 2em
+        }
+
+        #meso {
+            transform-style: preserve-3d;
+        }
+
+        #meso:after {
+            top: -100%;
+            left: 0px;
+            width: 100%;
+            position: absolute;
+            background: rgb(218, 174, 124);
+            border-radius: 5px;
+            content: 'Mesopelagic';
+            transform-origin: left bottom;
+            transform: rotateX(90deg);
+        }
+
+        #meso:hover {
+            transform-origin: center bottom;
+            transform: rotateX(-90deg) translateY(100%);
+        }
+
+        #mes:hover {
+            background: rgb(218, 174, 124);
+            border-radius: 5px;
+        }
+
+        #bath {
+            color: white;
+            background: #2D1371;
+            font-size: 2em
+        }
+
+        #bath {
+            transform-style: preserve-3d;
+        }
+
+        #bath:after {
+            top: -100%;
+            left: 0px;
+            width: 100%;
+            position: absolute;
+            background: darkorchid;
+            border-radius: 5px;
+            content: 'Bathypelagic';
+            transform-origin: left bottom;
+            transform: rotateX(90deg);
+        }
+
+        #bath:hover {
+            transform-origin: center bottom;
+            transform: rotateX(-90deg) translateY(100%);
+        }
+
+        #bathy:hover {
+            background: darkorchid;
+            border-radius: 5px;
+        }
+
+        #abyss {
+            color: #C4CC66;
+            background: #1F0A57;
+            font-size: 2em
+        }
+
+        #abyss {
+            transform-style: preserve-3d;
+        }
+
+        #abyss:after {
+            top: -100%;
+            left: 0px;
+            width: 100%;
+            position: absolute;
+            background: darkorchid;
+            border-radius: 5px;
+            content: 'Abyssopelagic';
+            transform-origin: left bottom;
+            transform: rotateX(90deg);
+        }
+
+        #abyss:hover {
+            transform-origin: center bottom;
+            transform: rotateX(-90deg) translateY(100%);
+        }
+
+        #abysso:hover {
+            background: rgb(205, 161, 230);
+            border-radius: 5px;
+        }
+
+        #hado {
+            color: yellow;
+            background: black;
+            font-size: 2em
+        }
+
+        #hado {
+            transform-style: preserve-3d;
+        }
+
+        #hado:after {
+            top: -100%;
+            left: 0px;
+            width: 100%;
+            position: absolute;
+            background: darkorchid;
+            border-radius: 5px;
+            content: 'Hadopelagic';
+            transform-origin: left bottom;
+            transform: rotateX(90deg);
+        }
+
+        #hado:hover {
+            transform-origin: center bottom;
+            transform: rotateX(-90deg) translateY(100%);
+        }
+
+        #had:hover {
+            background: rgb(149, 54, 207);
+            border-radius: 5px;
+        }
+
+        footer {
+            font-size: 0.8em
+        }
